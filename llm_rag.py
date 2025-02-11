@@ -13,14 +13,14 @@ from odf.opendocument import load as odt_load
 from odf.text import P
 
 # Configure AI Models
-LLM_MODEL = "llama3.2"
-EMBEDDING_MODEL = "nomic-embed-text"
+LLM_MODEL = "llama3.2"  # Change this for your preferred LLM model
+EMBEDDING_MODEL = "nomic-embed-text"  # Change this for your preferred embedding model
 
 # Paths for storage
 CHROMA_DB_PATH = "./chroma_db"
 os.makedirs(CHROMA_DB_PATH, exist_ok=True)
 
-# Define cleanup function
+# Function to cleanup ChromaDB
 def cleanup_chroma_db():
     if os.path.exists(CHROMA_DB_PATH):
         shutil.rmtree(CHROMA_DB_PATH)

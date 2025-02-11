@@ -74,7 +74,7 @@ streamlit run llm_rag.py
 
 ### 6. Changing Models
 
-By default, the application uses `llama3.2` as the LLM model and `nomic-embed-text` as the embedding model. You can modify the models used in the Python file. If you wish to use different models, you can pull your preferred models from Ollama. Here’s how:
+By default, the application uses `llama3.2` as the LLM model and `nomic-embed-text` as the embedding model. You can modify the models used in the Python file. Details of each model can be found on Ollama's [website](https://ollama.com/models). If you wish to use different models, you can pull your preferred models from Ollama. Here’s how:
 
 ```sh
 ollama pull your-preferred-llm-model  # LLM Model
