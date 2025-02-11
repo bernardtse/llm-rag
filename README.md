@@ -1,6 +1,6 @@
 # AI-Powered Multi-Mode RAG App
 
-Welcome to the **AI-Powered Multi-Mode RAG App** repository! This project provides a Python application built using `Streamlit`, `ChromaDB`, and `Ollama`. It allows users to upload multiple file formats (TXT, MD, PDF, DOCX, ODT, RTF), scrape web pages, and perform queries on extracted content using powerful language models.
+Welcome to the **AI-Powered Multi-Mode RAG App** repository! This project provides a Python application built using `Streamlit`, `ChromaDB`, and `Ollama`. It allows users to upload multiple file formats (TXT, MD, PDF, DOCX, ODT, RTF), scrape web pages, and perform queries on extracted content using powerful large language models (LLM).
 
 This repository simplifies the process of extracting text content from various documents and webpages, storing it in a vector database (ChromaDB), and using AI models for retrieval-augmented generation (RAG) to enhance querying accuracy.
 
