@@ -1,0 +1,12 @@
+streamlit
+requests
+beautifulsoup4
+langchain
+langchain-community
+langchain-chroma
+langchain-ollama
+chromadb
+ollama
+pdfplumber
+python-docx
+odfpy
