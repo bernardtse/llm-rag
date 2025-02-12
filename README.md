@@ -56,21 +56,29 @@ ollama pull nomic-embed-text  # Embedding Model
 
 ### 5. Usage
 
-Run the main application:
+#### Ensure Ollama is Running:
+
+Before proceeding, make sure that Ollama is running. You can start Ollama using either the graphical user interface (GUI) or by running the following command:
+```sh
+ollama serve
+```
+To verify that Ollama is running, open your browser and go to [http://localhost:11434](http://localhost:11434]). If the application is active, you should see the message: `Ollama is running`.
+
+#### Run the main application:
 ```sh
 streamlit run llm_rag.py
 ```
 
-### Instructions of Usage:
+#### Instructions of Usage:
 
-- **Text Files Processing:**
-  - Upload TXT or MD files → Extract text → Store embeddings in ChromaDB → Query text-based files
+Text Files Processing:
+- Upload TXT or MD files → Extract text → Store embeddings in ChromaDB → Query text-based files
 
-- **Document Files Processing:**
-  - Upload documents (PDF, DOCX, ODT, RTF) → Extract content → Store embeddings in ChromaDB → Query documents
+Document Files Processing:
+- Upload documents (PDF, DOCX, ODT, RTF) → Extract content → Store embeddings in ChromaDB → Query documents
 
-- **Web Scraping:**
-  - Enter a URL → Extract webpage content → Store embeddings in ChromaDB → Query scraped data
+Web Scraping:
+- Enter a URL → Extract webpage content → Store embeddings in ChromaDB → Query scraped data
 
 ### 6. Changing Models
 
