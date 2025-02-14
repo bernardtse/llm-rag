@@ -39,7 +39,7 @@ cd llm-rag
 ```sh
 pip install -r requirements.txt
 ```
-* Ensure Python 3 is installed, and that the libraries in `requirements.txt` are compatible with each other, as some versions may conflict and cause errors.
+Note: Ensure Python 3 is installed, and that the libraries in `requirements.txt` are compatible with each other, as some versions may conflict and cause errors.
 
 ### 3. Install Ollama
 
