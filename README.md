@@ -110,7 +110,7 @@ Simply update the model names and re-run the app.
 
 ## 5. License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## 6. Author
 
