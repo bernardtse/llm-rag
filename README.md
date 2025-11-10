@@ -16,7 +16,7 @@ This repository simplifies the process of extracting text content from various d
 
 ## 1. Repository
 This repository contains the following files:
-- [`llm-rag.py`](llm-rag.py) - Python file containing all the codes
+- [`llm_rag.py`](llm_rag.py) - Python file containing all the codes
 - [`requirements.txt`](requirements.txt) - A list of Python libraries required to run this app
 - [`README.md`](README.md) - Documentation and instructuions
 
@@ -67,7 +67,7 @@ To verify that Ollama is running, open your browser and go to [http://localhost:
 
 #### Run the main application:
 ```sh
-streamlit run llm-rag.py
+streamlit run llm_rag.py
 ```
 
 #### Instructions of Usage:
@@ -90,7 +90,7 @@ ollama pull your-preferred-llm-model  # LLM Model
 ollama pull your-preferred-embedding-model  # Embedding Model
 ```
 
-In `llm-rag.py`, you will find model selection variables at the top. Modify these lines to set your preferred models:
+In `llm_rag.py`, you will find model selection variables at the top. Modify these lines to set your preferred models:
 
 ```
 LLM_MODEL = "llama3.2"  # Change this for your preferred LLM model
@@ -107,7 +107,7 @@ Simply update the model names and re-run the app.
 - **Ollama** – AI tool for generating contextual natural language responses
 - **Streamlit** – Web UI for the application
 
-![Screenshot](images/llm-rag.png)
+![Screenshot](images/llm_rag.png)
 
 ## 5. License
 
