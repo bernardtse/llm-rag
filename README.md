@@ -115,5 +115,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 6. Author
 
-- This project is developed and maintained by [Bernard Tse](https://github.com/bernardtse), with assistance from OpenAI’s ChatGPT in areas such as code refinement, optimisation, and debugging.
+- This project is developed and maintained by [Bernard Tse](https://github.com/bernardtse), with assistance from [OpenAI](https://openai.com)’s ChatGPT in areas such as code refinement, optimisation, and debugging.
 - This project was initially inspired by an [article](https://medium.com/@arunpatidar26/rag-chromadb-ollama-python-guide-for-beginners-30857499d0a0) I read on Medium that helped me understand the topic and get started. The article provided a helpful starting point and sample code which I used as a foundation when exploring the topic. Since then, the code has been extensively modified, extended, and refactored, to the point where it is now almost entirely different in structure and functionality.
